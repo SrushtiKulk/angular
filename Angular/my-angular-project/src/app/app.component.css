@@ -1,0 +1,59 @@
+/* Apply basic styling to the form container */
+/* Apply basic styling to the form container */
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make container full height of viewport */
+    margin-left: auto; /* Add margin from the left to center the form */
+  }
+  
+  
+  /* Apply basic styling to the form */
+  form {
+    margin: 20px;
+    width: 300px; /* Set a fixed width for the form */
+  }
+  
+  /* Style the input fields */
+  input[type="text"] {
+    width: 100%; /* Make the input fields fill the width of the form */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the button */
+  button {
+    width: 100%; /* Make the button fill the width of the form */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the button on hover */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the section for displaying registered data */
+  h1 {
+    margin: 20px;
+  }
+  
+  /* Apply custom styles to the form heading */
+  h1:first-child {
+    color: #007bff;
+    font-size: 24px;
+  }
+  
+  /* Apply custom styles to the section heading */
+  h1:nth-child(2) {
+    color: #007bff;
+    font-size: 24px;
+  }
+  
